@@ -1,0 +1,14 @@
+@mixin numeros{
+    background-color: gray;
+        height: 50px;
+        width: 50px;
+        margin: 0 30px 0 0;
+}
+
+@mixin quadradinhos{
+    display: flex;
+    margin: auto;
+    width: 70%;
+    height: 50px;
+
+}

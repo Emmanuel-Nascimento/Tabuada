@@ -1,0 +1,92 @@
+@use "mixin" as var;
+@use "matricula" as mat;
+
+body{
+    @include mat.cor;
+    display: flex;
+    align-items: center;
+}
+
+main{
+    margin: auto;
+    color: white;
+}
+
+main div{
+    width: 1000px;
+    text-align: center;
+    align-items: center;
+}
+
+#h1{
+    display: flex;
+    margin: 100px 440px 20px;
+}
+
+.display{
+    background-color: whitesmoke;
+    height: 50px;
+    width: 50%;
+    margin: 0 250px 30px;
+}
+
+.numbers {
+    @include var.quadradinhos;
+
+    #um{
+        @include var.numeros;
+    }
+
+    #dois{
+        @include var.numeros;
+    }
+
+    #tres{
+        @include var.numeros;
+    }
+
+    #quatro{
+        @include var.numeros;
+    }
+
+    #cinco{
+        @include var.numeros;
+    }
+
+    #seis{
+        @include var.numeros;
+    }
+
+    #sete{
+        @include var.numeros;
+    }
+
+    #oito{
+        @include var.numeros;
+    }
+
+    #nove{
+        @include var.numeros;
+    }
+}
+
+.operations{
+    @include var.quadradinhos;
+    margin-top: 30px;
+
+    #add{
+        @include var.numeros;
+    }
+
+    #subtract{
+        @include var.numeros;
+    }
+
+    #multiply{
+        @include var.numeros;
+    }
+
+    #divide{
+        @include var.numeros;
+    }
+}

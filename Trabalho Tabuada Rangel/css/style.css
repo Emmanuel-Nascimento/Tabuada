@@ -1,1 +1,121 @@
-/*# sourceMappingURL=style.css.map */
+body {
+  background-color: #022201;
+  display: flex;
+  align-items: center;
+}
+
+main {
+  margin: auto;
+  color: white;
+}
+
+main div {
+  width: 1000px;
+  text-align: center;
+  align-items: center;
+}
+
+#h1 {
+  display: flex;
+  margin: 100px 440px 20px;
+}
+
+.display {
+  background-color: whitesmoke;
+  height: 50px;
+  width: 50%;
+  margin: 0 250px 30px;
+}
+
+.numbers {
+  display: flex;
+  margin: auto;
+  width: 70%;
+  height: 50px;
+}
+.numbers #um {
+  background-color: gray;
+  height: 50px;
+  width: 50px;
+  margin: 0 30px 0 0;
+}
+.numbers #dois {
+  background-color: gray;
+  height: 50px;
+  width: 50px;
+  margin: 0 30px 0 0;
+}
+.numbers #tres {
+  background-color: gray;
+  height: 50px;
+  width: 50px;
+  margin: 0 30px 0 0;
+}
+.numbers #quatro {
+  background-color: gray;
+  height: 50px;
+  width: 50px;
+  margin: 0 30px 0 0;
+}
+.numbers #cinco {
+  background-color: gray;
+  height: 50px;
+  width: 50px;
+  margin: 0 30px 0 0;
+}
+.numbers #seis {
+  background-color: gray;
+  height: 50px;
+  width: 50px;
+  margin: 0 30px 0 0;
+}
+.numbers #sete {
+  background-color: gray;
+  height: 50px;
+  width: 50px;
+  margin: 0 30px 0 0;
+}
+.numbers #oito {
+  background-color: gray;
+  height: 50px;
+  width: 50px;
+  margin: 0 30px 0 0;
+}
+.numbers #nove {
+  background-color: gray;
+  height: 50px;
+  width: 50px;
+  margin: 0 30px 0 0;
+}
+
+.operations {
+  display: flex;
+  margin: auto;
+  width: 70%;
+  height: 50px;
+  margin-top: 30px;
+}
+.operations #add {
+  background-color: gray;
+  height: 50px;
+  width: 50px;
+  margin: 0 30px 0 0;
+}
+.operations #subtract {
+  background-color: gray;
+  height: 50px;
+  width: 50px;
+  margin: 0 30px 0 0;
+}
+.operations #multiply {
+  background-color: gray;
+  height: 50px;
+  width: 50px;
+  margin: 0 30px 0 0;
+}
+.operations #divide {
+  background-color: gray;
+  height: 50px;
+  width: 50px;
+  margin: 0 30px 0 0;
+}/*# sourceMappingURL=style.css.map */
